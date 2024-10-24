@@ -9,13 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Cutive&family=Varela&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Funny Spanish Poem Generator</title>
+    <title>Spanish Poem Generator</title>
   </head>
   <body>
-    <h1>Funny AI Spanish <br />Poem Generator</h1>
+    <h1>AI Spanish Poem Generator</h1>
 
-    <form>
+    <form id="poem-generator-form">
       <input
         type="text"
         placeholder="Enter the topic for your funny Spanish poem..."
@@ -31,11 +32,7 @@
     <br />
     <main>
       <br />
-      <div>
-        Poema va aqui
-        <br />
-        Y mas a qui
-      </div>
+      <div class="poem" id="poem"></div>
       <br />
     </main>
     <footer>
