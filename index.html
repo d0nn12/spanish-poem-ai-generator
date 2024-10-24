@@ -11,6 +11,7 @@
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Spanish Poem Generator</title>
   </head>
   <body>
@@ -19,11 +20,12 @@
     <form id="poem-generator-form">
       <input
         type="text"
-        placeholder="Enter the topic for your funny Spanish poem..."
+        placeholder="Enter the topic for your Spanish poem..."
         auotofocus
         required
         autocomplete="off"
         class="instructions"
+        id="user-instructions"
       />
       <input type="submit" class="submit-button" value="Submit" />
     </form>
