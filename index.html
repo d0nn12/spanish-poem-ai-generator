@@ -16,25 +16,26 @@
   </head>
   <body>
     <h1>AI Spanish Poem Generator</h1>
-
-    <form id="poem-generator-form">
-      <input
-        type="text"
-        placeholder="Enter the topic for your Spanish poem..."
-        auotofocus
-        required
-        autocomplete="off"
-        class="instructions"
-        id="user-instructions"
-      />
-      <input type="submit" class="submit-button" value="Submit" />
-    </form>
-
+    <div id="form-container">
+      <form id="poem-generator-form">
+        <input
+          type="text"
+          placeholder="Enter the topic for your Spanish poem..."
+          auotofocus
+          required
+          autocomplete="off"
+          class="instructions"
+          id="user-instructions"
+        />
+        <input type="submit" class="submit-button" value="Submit" />
+        <small class="hint">i.e: flower, sun, pizza, </small>
+      </form>
+    </div>
     <br />
     <br />
     <main>
       <br />
-      <div class="poem" id="poem"></div>
+      <div class="poem-hidden" id="poem"></div>
       <br />
     </main>
     <footer>
